@@ -1,0 +1,18 @@
+{
+  "name": "ivyd-api",
+  "version": "1.0.0",
+  "description": "IVyD PDF validation API for FOSIS Emprendamos Avanzado 2026",
+  "main": "api/analizar.js",
+  "scripts": {
+    "start": "node api/analizar.js",
+    "dev": "node api/analizar.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
